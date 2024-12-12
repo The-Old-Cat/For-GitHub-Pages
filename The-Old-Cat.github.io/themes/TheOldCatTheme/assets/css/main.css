@@ -1,0 +1,8 @@
+.bg_color{
+  background-color: rgb(250, 252, 253);
+}
+
+a:hover{
+  color: rgb(19, 19, 23);
+  text-decoration: none;
+}

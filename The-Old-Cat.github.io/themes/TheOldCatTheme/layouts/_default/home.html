@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ .Content }}
+{{ range site.RegularPages }}
+<div class="uk-container uk-padding uk-tile uk-tile-default bg_color">
+  <a class="uk-link-heading" href="{{ .RelPermalink }}">
+    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+      <h2><a class="uk-link-heading" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <a class="uk-link-text" href="{{ .RelPermalink }}">
+        <p>{{ .Summary }}</p>
+      </a>
+    </div>
+  </a>
+</div>
+{{ end }}
+{{ end }}

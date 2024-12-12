@@ -1,0 +1,24 @@
+baseURL = 'https://The-Old-Cat.github.io'
+languageCode = 'ru-RU'
+title = 'My New Hugo Site'
+theme = 'TheOldCatTheme'
+
+[[menus.main]]
+name = 'Главная'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Статьи'
+pageRef = '/posts'
+weight = 20
+
+[[menus.main]]
+name = 'Тэги'
+pageRef = '/tags'
+weight = 30
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.116.0"
