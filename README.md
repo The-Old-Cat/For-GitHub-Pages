@@ -33,7 +33,7 @@ echo "theme = 'ananke'" >> hugo.toml
 Запустите сервер разработки Hugo в режиме `livereload`, чтобы просмотреть сайт.
 
 ```sh
-hugo server -D
+hugo server -D 
 ```
 
 ## Настройка сайта
