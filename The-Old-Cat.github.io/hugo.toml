@@ -2,7 +2,7 @@ baseURL = 'https://The-Old-Cat.github.io'
 title = "Notre-Dame de Paris"
 theme = 'ananke'
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "ru"
 sectionPagesMenu = "main"
 
 enableRobotsTXT = true
@@ -13,11 +13,11 @@ id = ''
 [pagination]
 pagerSize = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 
-[languages.fr]
-contentDir = "content/fr"
-languageCode = 'fr-FR'
+[languages.ru]
+contentDir = "content/ru"
+languageCode = 'ru-RU'
 weight = 1
-title = "Ananke Fr"
+title = "Ananke RU"
 
 [languages.en]
 contentDir = "content/en"
@@ -34,10 +34,10 @@ priority = 0.5
 filename = "sitemap.xml"
 
 [params]
-text_color = ""
-author = ""
-favicon = ""
-site_logo = ""
+text_color = "dark-gray"
+author = "ArtKov"
+favicon = "img/AK_favicon.ico"
+site_logo = "img/AK_logo.png"
 description = "The last theme you'll ever need. Maybe."
 # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
 background_color_class = "bg-gray"
@@ -50,26 +50,26 @@ recent_posts_number = 3
 [params.ananke.social.share]
 networks = [
   "email",
-  "facebook",
-  "bluesky",
-  "linkedin"
+  "github"
 ]
 
 [params.ananke.social.follow]
 networks = [
-  "facebook",
-  "bluesky",
-  "linkedin"
+  "telegram",
+  "pinterest",
+  "github"
 ]
 
-[params.ananke.social.facebook]
-username = "patrick.kollitsch"
-# profilelink = "https://www.facebook.com/patrick.kollitsch"
+[params.ananke.social.pinterest]
+username = "artkov476"
+profilelink = "https://www.pinterest.com/artkov476/"
 
-[params.ananke.social.linkedin]
-username = "patrickkollitsch"
+[params.ananke.social.github]
+username = "The-Old-Cat"
+profilelink = "https://github.com/The-Old-Cat/For-GitHub-Pages.git"
 
-[params.ananke.social.bluesky]
-username = "kollitsch.dev"
+[params.ananke.social.telegram]
+username = "Art_Kovale"
+
 
 
