@@ -9,6 +9,8 @@ menu: main
 ---
 
 
-This is an example of a custom shortcode that you can put right into your content.
+This is the contact page in English.
+
+This is an example of a custom shortcode that you can place directly into your content.
 
 {{< form-contact-en >}}
