@@ -1,0 +1,3 @@
+[submodule "The-Old-Cat.github.io/themes/ananke"]
+	path = The-Old-Cat.github.io/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
