@@ -1,7 +1,5 @@
-+++
-title = 'Cтатьи'
-date = 2023-01-01T08:30:00-07:00
-draft = false
-+++
-
-Это время упражнений, к которым нужно быть готовым получить что-то, если только это не затмит его результат. Ноструд избегает результата любой работы, считая, что он хочет быть самим эпизодом работы. Пусть боль будет вынесена, и пусть никто не убежит, кроме боли. Тот, кому я даю некоторые результаты.
+---
+title: статьи
+date: 2017-03-02T12:00:00-05:00
+---
+Articles are paginated with only three posts here for example. You can set the number of entries to show on this page with the "pagination" setting in the config file.
