@@ -39,16 +39,17 @@ Set-Location -Path $ProjectDir
 # Установка темы (по желанию, замените на вашу тему)
 Write-Host "Установка темы для проекта..."
 git init
-git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-Add-Content -Path "hugo.toml" -Value 'theme = "ananke"'
+git clone https://github.com/spech66/materialize-bp-hugo-theme.git themes/materialize-bp-hugo-theme
+Add-Content -Path "hugo.toml" -Value 'theme = "materialize-bp-hugo-theme"'
 
-# Создание первой страницы
-Write-Host "Создание первой страницы..."
-hugo new posts/my-first-post.md
+
+# # Создание первой страницы
+# Write-Host "Создание первой страницы..."
+# hugo new posts/my-first-post.md
 
 # Запуск сервера
 Write-Host "Запуск сервера Hugo..."
-hugo server -D
-
+# hugo server -D
+hugo server -t materialize-bp-hugo-theme
 # Пауза, чтобы окно не закрылось сразу после завершения
 Pause

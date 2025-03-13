@@ -44,3 +44,4 @@ hugo server -D
 ```sh
 hugo new content content/posts/example-post.md
 ```
+hugo new content content/ru/post/Opponents_or_allies.md
