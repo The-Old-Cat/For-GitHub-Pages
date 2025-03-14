@@ -27,6 +27,7 @@ git init
 
 ```sh
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+git submodule add https://github.com/spech66/materialize-bp-hugo-theme.git themes/materialize-bp-hugo-theme
 echo "theme = 'ananke'" >> hugo.toml
 ```
 
